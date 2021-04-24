@@ -1,0 +1,12 @@
+---
+- name: "install vim"
+  package:
+    name: vim
+    state: present
+  become: yes
+
+- name: "install copyq clipboard manager"
+  package:
+    name: copyq
+    state: present
+  become: yes
